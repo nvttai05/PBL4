@@ -1,0 +1,8 @@
+# cấu hình đường dẫn, mặc định flags
+rootfs: "/srv/sbx/rootfs"   # hoặc "./var/rootfs" khi dev
+jobs_dir: "/srv/sbx/jobs"   # hoặc "./var/jobs"
+defaults:
+  timeout_s: 8
+  noexec_work: true
+  enable_loopback: false
+  bind_full_etc: false
