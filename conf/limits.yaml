@@ -1,0 +1,15 @@
+enabled: true
+
+memory:
+  max: "256M"
+  swap_max: "0"
+  oom_group: true
+
+cpu:
+  max: "50000 100000"
+
+pids:
+  max: 64
+
+io:
+  enabled: false
